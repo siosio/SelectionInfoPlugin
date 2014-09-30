@@ -1,0 +1,37 @@
+<idea-plugin version="2">
+  <id>siosio.ShowSelectedInfo</id>
+  <name>Show Selected Info Plugin</name>
+  <version>1.0</version>
+  <vendor email="" url="">siosio</vendor>
+
+  <description><![CDATA[
+      Enter short description for your plugin here.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="131"/>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+
+  <application-components>
+  </application-components>
+
+  <project-components>
+    <component>
+      <implementation-class>siosio.intellij.plugin.ShowSelectedInfo</implementation-class>
+    </component>
+  </project-components>
+
+  <actions>
+  </actions>
+
+</idea-plugin>
